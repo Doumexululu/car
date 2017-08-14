@@ -4,6 +4,7 @@
 .content {
 	width: 1366px;
     margin: 0 auto;
+    display: block;
 }
 .main-topic {
     width: 100%;
