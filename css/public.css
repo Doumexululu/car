@@ -6,3 +6,11 @@ body,ul,li,ol,dd,dt,dt,a {
 	font-size: 14px;
 	color: #1B2431;
 }
+
+/*头部*/
+.head {
+
+}
+.content {
+	width: 1366px;
+}
