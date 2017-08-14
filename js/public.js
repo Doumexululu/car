@@ -3,14 +3,14 @@ $(document).ready(function(){
     var tabs = function (tab, con) {
         tab.click(function () {
             var index = tab.index(this);
-            tab.removeClass('active');
-            $(this).addClass('active');
-            con.removeClass('active');
-            con.eq(index).addClass('active');
+            tab.removeClass('about-tab-active');
+            $(this).addClass('about-tab-active');
+            con.removeClass('about-panel-active');
+            con.eq(index).addClass('about-panel-active');
         })
     };
     // 举例
-    //tabs($(".tab-index span"),$(".tab-con .tab-panel"))
+    tabs($(".about-tab span"),$(".about-cont .about-panel"));
 
     // 轮播
     var swiper = new Swiper('.swiper-container', {

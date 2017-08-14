@@ -1,10 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<frameset rows="80,*">
-	<frame border="0" name="showframe">
-	<frameset cols="150,*">
-		<frame border="0" src="">
-		<frame border="0" name="showframe">
-	</frameset>
-</frameset>
+<head>
+	<meta charset="UTF-8">
+	<title>火星车</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/swper.min.css">
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/base.css">
+</head>
+<body>
+	<section class="cont-warrp">
+		<form class="">
+			<div class="content">
+				<div class="main-topic money-topic">
+					<span>在线申请：填写后我们将尽快电话联系您</span>
+				</div>
+				<div class="money-cont">
+					<div class="money-form">
+						<div class="displayflex marginb20">
+							<span>
+								<span class="redf">*</span>贷款类型：
+							<input type="radio" name="money" value="" checked>
+							<label name="" for="">抵押类（不需要押车）</label>
+							<input type="radio" name="money" value="">
+							<label name="" for="">质押类（需要押车）</label>
+							</span>
+						</div>
+						<div class="displayflex marginb20">
+							<div class="flex1">
+									<span><span class="redf">*</span>真实姓名：<input class="form-info" type="text" name="" value="" placeholder="如：张大大"></span>
+							</div>
+							<div class="flex1 textcenter">
+									<span><span class="redf">*</span>手机号码：<input class="form-info" type="text" name="" value="" placeholder="请输11位手机号码"></span>
+							</div>
+							<div class="flex1 textright">
+									<span><span class="redf">*</span>车辆登记城市：<input class="form-info" type="text" name="" value="" placeholder="填写省市"></span>
+							</div>
+						</div>
+						<div class="displayflex marginb20">
+							<div class="flex1">
+									<span><span class="redf">*</span>是否在押：<select class="form-info" name="" id="">
+			        						<option class="display-none" value="请选择">请选择</option>
+			        						<option value="是">是</option>
+			        						<option value="否">否</option>
+		    					    	</select>
+									</span>
+							</div>
+							<div class="flex1 textcenter">
+									<span><span class="redf">*</span>车身颜色：<input class="form-info" type="text" name="" value="" placeholder="请输11位手机号码"></span>
+							</div>
+							<div class="flex1 textright">
+									<span><span class="redf">*</span>车辆行驶里程：<input class="form-info" type="text" name="" value="" placeholder="填写省市"></span>
+							</div>
+						</div>
+						<ul class="marginb20 two-ul">
+							<li class="">
+									<span><span class="redf">*</span>购车方式：
+									<input type="radio" name="car" value="" checked>
+									<label name="nba" for="">全款</label>
+									<input type="radio" name="car" value="">
+									<label name="nba" for="">分期</label>
+									</span>
+							</li>
+							<li class="">
+									<span><span class="redf">*</span>选择车型：<select class="form-info select-s" name="" id="">
+			        						<option class="display-none" value="请选择">请选择</option>
+			        						<option value="是">是</option>
+			        						<option value="否">否</option>
+		    					    	</select>
+										车型：<select class="form-info select-s" name="" id="">
+				        						<option class="display-none" value="请选择">请选择</option>
+				        						<option value="是">是</option>
+				        						<option value="否">否</option>
+		    					    	</select>
+										具体型号：<select class="form-info select-s" name="" id="">
+				        						<option class="display-none" value="请选择">请选择</option>
+				        						<option value="是">是</option>
+				        						<option value="否">否</option>
+			    					    </select>
+									</span>
+							</li>
+						</ul>
+						<div class="displayflex">
+							<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;留言：</span><textarea name="name" class="textarea" placeholder="请输入"></textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="foot">
+				<div class="money-form textright">
+					<button class="button" type="button" name="button">提交申请</button>
+				</div>
+			</div>
+		</form>
+	</section>
+	<!-- 信息提交反馈 -->
+	<div class="info-warrp">
+		<div class="info-main">
+			<div class="info-topic displayflex">
+				<span class="flex1">抵押类在线申请：</span>
+				<span class="close"></span>
+			</div>
+			<div class="info-cont ">
+				<div class="displayflex f20 marginb97">
+					<span class="warning"></span>信息已提交，请耐心等待工作人员与您联系
+				</div>
+				<div class="sure-btn">
+					确定
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/swper.min.js"></script>
+<script src="../js/public.js"></script>
 </html>
