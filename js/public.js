@@ -13,12 +13,9 @@ $(document).ready(function(){
     //tabs($(".tab-index span"),$(".tab-con .tab-panel"))
 
     // 轮播
-    var swiper2 = new Swiper('.swiper2', {
-        initialSlide :0,
-        pagination: '.swiper-pagination',
-        slidesPerView: 'auto',
-        centeredSlides: true,
-        paginationClickable: true,
-        spaceBetween: 10
+    var swiper = new Swiper('.swiper-container', {
+        autoplay: 5000,//可选选项，自动滑动
+        initialSlide :1,
+        pagination : '.swiper-pagination'//分页器
     });
 });

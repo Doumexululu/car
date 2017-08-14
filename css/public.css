@@ -3,14 +3,80 @@ body,ul,li,ol,dd,dt,dt,a {
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
-	font-size: 14px;
-	color: #1B2431;
+	font-size: 16px;
+	color: #333333;
 }
-
+/**/
 /*头部*/
 .head {
-
+	width: 1366px;
+	padding: 0 50px;
+}
+.logo {
+	float: left;
+	padding: 10px 0;
+}
+.nav {
+	float: right;
+}
+.nav a {
+	width: 144px;
+	display: inline-block;
+	text-align: center;
+	line-height: 80px;
+}
+.nav a.active {
+	background: url("../images/or.png") no-repeat center;
+	color: #ffffff;
+}
+/*banner*/
+.banner {
+	width: 100%;
+}
+.swiper-container {
+	width: 100%;
+}
+.banner img {
+	width: 100%;
+}
+.swiper-pagination-bullet {
+	border: 1px solid #F29800;
+	background: none;
+	opacity: 1;
+}
+.swiper-pagination-bullet-active {
+	background: #F29800;
+}
+/*公司简介*/
+.company {
+	width: 1117px;
+	margin: 0 auto;
+}
+.title-img {
+	margin: 40px 0 70px;
+	text-align: center;
+}
+.img1 {
+	float: left;
+	width: 422px;
+}
+.font1 {
+	float: left;
+	width: 667px;
+	margin-left: 28px;
+	color: #4C4C4C;
+	line-height: 24px;
+}
+.font1 h1 {
+	color: #333333;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
 .content {
 	width: 1366px;
+	margin: 0 auto;
+	display: inline-block;
+	margin-bottom: 62px;
 }
