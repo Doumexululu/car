@@ -13,9 +13,18 @@ $(document).ready(function(){
     tabs($(".about-tab span"),$(".about-cont .about-panel"));
 
     // 轮播
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.banner .swiper-container', {
         autoplay: 5000,//可选选项，自动滑动
         initialSlide :1,
         pagination : '.swiper-pagination'//分页器
+    });
+    var swiper = new Swiper('.pinpai .swiper-container', {
+        // pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 5,
+        // paginationClickable: true,
+        spaceBetween: 100,
+        freeMode: true
     });
 });

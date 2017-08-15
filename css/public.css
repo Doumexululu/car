@@ -53,15 +53,15 @@ body,ul,li,ol,dd,dt,dt,a {
 	margin: 0 auto;
 }
 .title-img {
-	margin: 40px 0 70px;
+	margin: 0px 0 70px;
 	text-align: center;
 }
 .img1 {
-	float: left;
+	/*float: left;*/
 	width: 422px;
 }
 .font1 {
-	float: left;
+	/*float: left;*/
 	width: 667px;
 	margin-left: 28px;
 	color: #4C4C4C;
@@ -77,6 +77,205 @@ body,ul,li,ol,dd,dt,dt,a {
 .content {
 	width: 1366px;
 	margin: 0 auto;
-	display: inline-block;
+	/*display: inline-block;*/
 	margin-bottom: 62px;
+}
+/*贷款业务*/
+.loan,.odds,.application,.foot-top {
+	justify-content: space-between;
+}
+.loan-item {
+	width: 290px;
+	height: auto;
+	box-shadow:0 2px 12px 0 rgba(0,0,0,0.16);
+	border-radius:4px;
+}
+.loan-top {
+	padding: 50px 0 30px 0;
+	text-align: center;
+	background:#f4f4f4;
+}
+.loan-top img {
+	width: 96px;
+    height: 93px;
+	margin-bottom: 30px;
+}
+.loan-top p {
+	font-size:20px;
+	color:#333333;
+}
+.loan-top span {
+	font-size:14px;
+	color:#808080;
+}
+.loan-bottom {
+	background:#ffffff;
+	padding: 21px 0 21px 0;
+	border-radius: 0 0 4px 4px;
+	text-align: center;
+}
+.loan-btn {
+	background-image:linear-gradient(-180deg, #ffcb72 2%, #fa9241 98%);
+	border:1px solid #d27b2f;
+	border-radius:4px;
+	width:98px;
+	height:38px;
+	color: #fff;
+	margin: 0 auto;
+	line-height: 38px;
+	cursor: pointer;
+}
+/**/
+.odds-item {
+	width: 260px;
+	height: auto;
+	background-image:linear-gradient(-180deg, #fed081 3%, #fa903f 100%);
+	box-shadow:0 2px 12px 0 rgba(0,0,0,0.16);
+	border-radius:4px;
+}
+.odds-cont {
+	padding: 30px 0 55px 0;
+	text-align: center;
+}
+.odds-img {
+	width: 114px;
+    height: 114px;
+    margin: 0 auto;
+    line-height: 114px;
+	margin-bottom: 14px;
+}
+.odds-img img {
+	width: 71px;
+	height: 71px;
+}
+.odds-cont p {
+	font-size:20px;
+	color:#ffffff;
+	margin-bottom: 7px;
+}
+.odds-cont span {
+	font-size:14px;
+	color:#ffffff;
+}
+.pentagon {
+	position: relative;
+    width: 160px;
+    border-width: 95px 18px 0;
+    border-style: solid;
+    border-color: #515151 transparent;
+}
+.pentagon:before {
+	content: "";
+    position: absolute;
+    height: 0;
+    width: 0px;
+    top: -155px;
+    left: -18px;
+    border-width: 0px 80px 60px;
+    border-style: solid;
+    border-color: transparent transparent #515151;
+}
+.application-cont {
+	text-align: center;
+}
+.application-cont p {
+	margin-top: 22px;
+	font-size:20px;
+	color:#333333;
+}
+.pentagon img {
+	width: 48px;
+    height: 102px;
+    position: absolute;
+    top: -118px;
+    left: 34px;
+}
+.application-cont img {
+	width: 162px;
+    height: 152px;
+}
+/**/
+.greybg {
+	background-color: #f3f3f3;
+	padding-bottom: 80px;
+}
+.pinpai .container {
+	width: 100%;
+	/*height: 300px;*/
+	/*margin: 20px auto;*/
+	/*margin-bottom: 80px;*/
+}
+.pinpai .wrapper .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	/*background: #fff;*/
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.pinpai .swiper-btn {
+	background-image: none;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background:#ffffff;
+	box-shadow:0 1px 2px 0 rgba(0,0,0,0.16);
+	text-align: center;
+	line-height: 50px;
+}
+.pinpai .swiper-btn img {
+	width: 9px;
+    height: 16px;
+}
+.paddingt45 {
+	padding-top: 45px;
+}
+/**/
+.footer-warrp {
+	width: 100%;
+	background:#393939;
+	padding: 40px 0 40px 0;
+	color: #fff;
+}
+.foot-top {
+	width: 1172px;
+	margin: 0 auto;
+}
+.foot-top-warrp {
+	padding-bottom: 45px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+}
+.foot-bottom-warrp {
+	padding-top: 35px;
+}
+.foot-bottom-warrp {
+	width: 1172px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+.foot-big {
+	font-size: 17px;
+	margin-bottom: 25px;
+}
+.foot-center {
+	font-size: 14px;
+	/*margin-bottom: 19px;*/
+}
+.marginb20 {
+	margin-bottom: 20px;
+}
+.margint49 {
+	margin-top: 49px;
 }
