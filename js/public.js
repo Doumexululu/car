@@ -30,5 +30,45 @@ $(document).ready(function(){
     $(".returntop").click(function(){
         var sc=$(window).scrollTop();
         $('body,html').animate({scrollTop:0},500);
-    })
+    });
+    $(".loan-item").hover(function(){
+        var _datasrc = $(this).find("img").attr("data-src");
+        // console.log(_datasrc);
+        $(this).find("img").attr("src",_datasrc);
+    },function(){
+        var _src = $(this).find("img").attr("after-src");
+        $(this).find("img").attr("src",_src);
+    });
+    $(".odds-item").hover(function(){
+        var _datasrc = $(this).find("img").attr("data-src");
+        // console.log(_datasrc);
+        $(this).find("img").attr("src",_datasrc);
+    },function(){
+        var _src = $(this).find("img").attr("after-src");
+        $(this).find("img").attr("src",_src);
+    });
+    $(".application-item").hover(function(){
+        var _datasrc = $(this).find("img").attr("data-src");
+        // console.log(_datasrc);
+        $(this).find("img").attr("src",_datasrc);
+    },function(){
+        var _src = $(this).find("img").attr("after-src");
+        $(this).find("img").attr("src",_src);
+    });
+    $(".apply-btn").click(function(){
+        $(this).parents(".buy").siblings(".info-warrp").css("display","block");
+        $('body').css("overflow","hidden");
+    });
+    $(".close").click(function(){
+        $(this).parents(".info-warrp").css("display","none");
+        $('body').css("overflow","scroll");
+    });
+    $(".submit-btn").click(function(){
+        $(this).parents(".cont-warrp").siblings(".info-warrp").css("display","block");
+        $('body').css("overflow","hidden");
+    });
+    $(".sure-btn").click(function(){
+        $(this).parents(".info-warrp").css("display","none");
+        $('body').css("overflow","scroll");
+    });
 });

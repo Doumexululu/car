@@ -89,16 +89,18 @@ body,ul,li,ol,dd,dt,dt,a {
 	height: auto;
 	box-shadow:0 2px 12px 0 rgba(0,0,0,0.16);
 	border-radius:4px;
+	cursor: pointer;
 }
 .loan-top {
 	padding: 50px 0 30px 0;
 	text-align: center;
 	background:#f4f4f4;
 	position: relative;
+	border-radius: 4px 4px 0 0;
 }
 .loan-top img {
-	width: 96px;
-    height: 93px;
+	/*width: 96px;
+    height: 93px;*/
 	margin-bottom: 30px;
 }
 .loan-top p {
@@ -130,9 +132,10 @@ body,ul,li,ol,dd,dt,dt,a {
 .odds-item {
 	width: 260px;
 	height: auto;
-	background-image:linear-gradient(-180deg, #fed081 3%, #fa903f 100%);
-	box-shadow:0 2px 12px 0 rgba(0,0,0,0.16);
+	/*background-image:linear-gradient(-180deg, #fed081 3%, #fa903f 100%);*/
+	/*box-shadow:0 2px 12px 0 rgba(0,0,0,0.16);*/
 	border-radius:4px;
+	cursor: pointer;
 }
 .odds-cont {
 	padding: 30px 0 55px 0;
@@ -144,7 +147,9 @@ body,ul,li,ol,dd,dt,dt,a {
     height: 114px;
     margin: 0 auto;
     line-height: 114px;
-	margin-bottom: 14px;
+	margin-bottom: 36px;
+	background-image:linear-gradient(-180deg, #fed081 3%, #fa903f 100%);
+	border-radius: 50%;
 }
 .odds-img img {
 	width: 71px;
@@ -152,12 +157,13 @@ body,ul,li,ol,dd,dt,dt,a {
 }
 .odds-cont p {
 	font-size:20px;
-	color:#ffffff;
+	/*color:#ffffff;*/
 	margin-bottom: 7px;
 }
 .odds-cont span {
 	font-size:14px;
-	color:#ffffff;
+	/*color:#ffffff;*/
+	color:#808080;
 }
 .pentagon {
 	position: relative;
@@ -179,6 +185,8 @@ body,ul,li,ol,dd,dt,dt,a {
 }
 .application-cont {
 	text-align: center;
+	position: relative;
+	cursor: pointer;
 }
 .application-cont p {
 	margin-top: 22px;
@@ -203,7 +211,7 @@ body,ul,li,ol,dd,dt,dt,a {
 }
 .pinpai .container {
 	width: 100%;
-	height: 80px;
+	height: 100px;
 	/*margin: 20px auto;*/
 	/*margin-bottom: 80px;*/
 }
@@ -299,4 +307,89 @@ body,ul,li,ol,dd,dt,dt,a {
     /*top: -10px;*/
 	left: 50%;
     bottom: 5px;
+	opacity: 0;
+}
+.loan-item:hover .loan-top {
+	background-image:linear-gradient(-180deg, #ffca71 0%, #fa903f 100%);
+	-o-transition: background-image .3s ease-in .0s; /* Opera */
+	-webkit-transition:background-image .3s ease-in .0s;
+	-moz-transition:background-image .3s ease-in .0s;
+	transition:background-image .3s ease-in .0s;
+}
+.loan-item:hover .hands {
+	opacity: 1;
+	-o-transition: opacity .3s ease-in .0s; /* Opera */
+	-webkit-transition:opacity .3s ease-in .0s;
+	-moz-transition:opacity .3s ease-in .0s;
+	transition:opacity .3s ease-in .0s;
+}
+.odds-item:hover {
+	background-image: linear-gradient(-180deg, #fed081 3%, #fa903f 100%);
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.16);
+	color: #fff;
+}
+.odds-item:hover .odds-img {
+	background-image: none;
+	background-color: #fff;
+}
+.odds-item:hover span {
+	color: #fff;
+}
+.odds-item:hover .hands {
+	opacity: 1;
+	-o-transition: opacity .3s ease-in .0s; /* Opera */
+	-webkit-transition:opacity .3s ease-in .0s;
+	-moz-transition:opacity .3s ease-in .0s;
+	transition:opacity .3s ease-in .0s;
+}
+.bottom46 {
+	bottom:46px;
+}
+.application-cont:hover .hands {
+	opacity: 1;
+   -o-transition: opacity .3s ease-in .0s; /* Opera */
+   -webkit-transition:opacity .3s ease-in .0s;
+   -moz-transition:opacity .3s ease-in .0s;
+   transition:opacity .3s ease-in .0s;
+}
+.pinpai .swiper-slide {
+	position: relative;
+	cursor: pointer;
+}
+.pinpai .swiper-slide img {
+	width:136px;
+	height: 50px;
+	transition:width .2s, height .2s, box-shadow .2s, transform .2s;
+}
+.pinpai .swiper-slide:hover img {
+	width: 230px;
+	height: 75px;
+	box-shadow:0 2px 12px 0 rgba(0,0,0,0.16);
+}
+.pinpai .swiper-slide:hover .hands {
+	opacity: 1;
+	-o-transition: opacity .3s ease-in .0s; /* Opera */
+    -webkit-transition:opacity .3s ease-in .0s;
+    -moz-transition:opacity .3s ease-in .0s;
+    transition:opacity .3s ease-in .0s;
+}
+.loan-one {
+	width: 113px;
+	height: 78px;
+}
+.loan-two {
+	width: 93px;
+	height: 93px;
+}
+.loan-three {
+	width: 100px;
+	height: 95px;
+}
+.loan-four {
+	width: 94px;
+	height: 84px;
+}
+.odds-img-three {
+	width: 51px !important;
+	height: 61px !important;
 }
