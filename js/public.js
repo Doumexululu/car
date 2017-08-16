@@ -27,4 +27,8 @@ $(document).ready(function(){
         spaceBetween: 100,
         freeMode: true
     });
+    $(".returntop").click(function(){
+        var sc=$(window).scrollTop();
+        $('body,html').animate({scrollTop:0},500);
+    })
 });
